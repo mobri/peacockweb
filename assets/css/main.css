@@ -70,6 +70,7 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
+
 }
 
 /* Basic */
@@ -2095,6 +2096,7 @@ input, select, textarea {
 
 		form > :last-child {
 			margin-bottom: 0;
+			
 		}
 
 		form > .fields {
@@ -2121,6 +2123,7 @@ input, select, textarea {
 				flex-shrink: 0;
 				padding: 1.5em 0 0 1.5em;
 				width: calc(100% - 1.5em);
+				background: rgba(80, 80, 80, 0.025);
 			}
 
 				form > .fields > .field.half {
@@ -2182,7 +2185,8 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(255, 255, 255, 0.025);
+		background: rgba(80, 80, 80, 0.025);
+		background-color : #68177E;
 		border-radius: 5px;
 		border: none;
 		border: solid 2px rgba(255, 255, 255, 0.125);
